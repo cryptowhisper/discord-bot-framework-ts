@@ -1,6 +1,6 @@
 {
   "name": "discord-bot-framework-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Um framework robusto para criar bots do Discord em TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
