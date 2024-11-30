@@ -1,0 +1,34 @@
+{
+  "name": "discord-bot-framework-ts",
+  "version": "1.0.2",
+  "description": "Um framework robusto para criar bots do Discord em TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "framework",
+    "typescript"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.x",
+    "reflect-metadata": "^0.1.13"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.x"
+  },
+  "devDependencies": {
+    "@types/node": "^18.x",
+    "typescript": "^5.x"
+  }
+}
