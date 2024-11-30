@@ -18,7 +18,7 @@
     "framework",
     "typescript"
   ],
-  "author": "Seu Nome",
+  "author": "nkverse",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.x",
